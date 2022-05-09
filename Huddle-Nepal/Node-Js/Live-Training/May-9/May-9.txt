@@ -1,0 +1,51 @@
+-- Node Js
+   --# Installaion
+   -- Synchronous and Asychronous in Javascript
+   -- versions of Node js
+   -- NVM version controlling in Node js
+
+   --# Package Managers
+      - tools,programs,scripts which helps to update,download other software or application
+      -eg: apt, windowspackage manager, homebrew, dpkg
+
+   
+   --# REPL(Read Eval Print Loop)
+       - basically console window - browser console, - python shell
+       // eg of REPL 
+       C:\Users\dilli>node
+       Welcome to Node.js v16.13.2.
+       Type ".help" for more information.
+       > console.log("this is node")
+       this is node
+       undefined
+       > function hello(h){
+          ... return h;
+         ... }
+      undefined
+      > hello("hello world");
+      'hello world'
+      >
+   
+   --# First Node Js Project
+      - create index.js 
+      - run it with command
+                       - node index.js
+            (code executed outside the browser with node js environment)
+      - create Package.json
+          - command with - npm init (package.json)
+
+     - package.json
+        - We can test, write , update code here in the scripts part of package.json 
+          "scripts": {
+              "test": "echo \"Error: no test specified\" && exit 1",
+              "start": "node index.js"
+            },
+            - // test with npm start 
+            - // run any scripts object of package json with command npm run objectName for eg: npm run hello
+      
+      # - Built in Globals in Node js
+              - they are global identifiers 
+              - creating custom global objects
+              - knowing the differences between global objects and scoped global variables
+              - knowing the global in built node js identifiers -console.log(process);
+  
