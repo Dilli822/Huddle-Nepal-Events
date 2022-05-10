@@ -1,0 +1,15 @@
+
+// making js to know common module
+// common js 
+//ecma 6 import export module type module
+##  EcmaScript Modules vs Common js
+
+-- no console.log(..dirname); in module
+console.log(import.meta.url) in ES Module 
+
+## Node js inBuilt Modules 
+-- fs (filesystem)
+-- HTTP module 
+-- Internationalization -- translation of language
+-- and many more in built modules.
+
