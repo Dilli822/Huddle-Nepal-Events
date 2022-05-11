@@ -1,0 +1,17 @@
+
+// scripts: " node ." means redirect to main file
+
+// kill port package -- kills the running default port 
+
+// data reterive get, post 
+
+
+// nodemon package helps node server to detect changes to our node
+// after we do any changes in the code or files
+
+
+//## Npm $ Yarn CLI commands.
+-- extra features in yarn 
+
+// ## chalk packages -- different colors in our terminal as entertaining us 
+// # winston- library -- it tracks the logged data inside the local directory /folder

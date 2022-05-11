@@ -23,10 +23,22 @@ try{
 console.log("This is what we want to know!");
 
 
-// unlink function demo text to unlink
-await fs.unlink("a.text");
+// // unlink function demo text to unlink
+// await fs.unlink("a.text");
 
-// folder read -- delete test folder
-await fs.rmdir("testing");
-// with callback we can know if it is deleted or task is completed or not
+// // folder read -- delete test folder
+// await fs.rmdir("testing");
+// // with callback we can know if it is deleted or task is completed or not
 
+import { URL } from "url";
+
+const url = new URL("https://dilli822.github.io");
+console.log(url.pathname);
+console.log(url.hostname);
+console.log(url.protocol);
+
+// creation of server
+// with http module we can create a server  -- serving the files to the clientside from serverside
+
+import http from "http";
+http.createServer();

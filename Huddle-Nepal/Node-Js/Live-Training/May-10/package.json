@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "may10",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "type": "module"
+    "start": "node index.js"
   },
   "author": "dilli",
   "license": "ISC",
