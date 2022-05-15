@@ -1,0 +1,14 @@
+{
+  "name": "may-13",
+  "version": "1.0.0",
+  "description": "day-6",
+  "main": "day-6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dilli",
+  "license": "ISC",
+  "dependencies": {
+    "express-rate-limit": "^6.4.0"
+  }
+}

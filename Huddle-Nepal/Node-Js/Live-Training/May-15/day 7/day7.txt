@@ -1,0 +1,45 @@
+
+// Node js Day -7 Huddle Nepal Events
+//# Database(DB)
+     - Data (Digital Age) vs old age style database management
+     - A database is an organized collection of structured information, or data, typically stored electronically
+       in a computer system.
+
+// DBMS(Database Management System)
+     - It is a software/program that manages, organizes, controls our database.
+     - eg: MYSQL, Oracle, PostgressSQL etc.
+
+// Communicating with Database
+     - To Communicate with the Database, we use query language named as structured query language(SQL)
+
+     - Creation of database table
+     CREATE TABLE table_name(name varchar(20), address varchar(30));
+
+// CRUD Operation in Database (Main operation we perform with DB)
+    - C - Create , R- Read, U- update, D- Delete
+
+// Data storing format in DB(schema-structured)
+  Tables     or    JSON(Tree Format, GRAPH, key value pairs)
+  SQL             NoSQL
+  Relational      Non-Relational
+
+
+// Association Mechanism in Relational Database
+   - keys used for identity of data relational like foreign key,composite, primary key
+   - Relational DB are related to eachother having fixed structure
+
+
+//   SQL                      VS          NoSQL
+   Relational DB                       Non-Relational DB
+   Pre-defined schema                  Dynamic schema
+   Based on ACID Properties            Based on BASE Properties
+   Table Based schema                  key-value, graph-based schema
+   Good for complex queries            Not good for complex queries(no fixed-schema)
+
+// Database Drivers or ORM to connect Database from Programming Language.
+// We integrate associated library/dependecy/plugin associated with database in our application and hence perform query.
+
+// ORM (Object Relational Mapping)
+      - An ORM library is a completely ordinary library written in our language of choice 
+        to Communicate DB in shortcut way in a OOP way.
+        eg: for python - python - Django ORM || Java orm - hibernate ||   Javascript -sequelize
